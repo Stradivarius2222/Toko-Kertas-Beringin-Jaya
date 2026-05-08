@@ -120,14 +120,14 @@
     <div class="rounded-2xl overflow-hidden shadow-2xl border-2 border-white floating-image" 
          data-aos="zoom-in" 
          data-aos-delay="200">
-        <img src="Untitled2.png" alt="Produk 1" class="w-full h-full object-cover">
+        <img src="Untitled2.png" alt="Produk 1" class="w-full h-full object-cover" draggable="false">
     </div>
 
     <!-- Gambar Untitled 21 -->
     <div class="rounded-2xl overflow-hidden shadow-2xl border-2 border-white mt-8 floating-image-reverse" 
          data-aos="zoom-in" 
          data-aos-delay="400">
-        <img src="Untitled21.png" alt="Produk 2" class="w-full h-full object-cover">
+        <img src="Untitled21.png" alt="Produk 2" class="w-full h-full object-cover" draggable="false">
     </div>
 </div>
         </div>
@@ -215,7 +215,7 @@
             <div class="lg:col-span-1">
                 <div class="flex items-center gap-4 mb-8">
                     <div class="w-12 h-12 bg-[#004d40] rounded-full flex items-center justify-center overflow-hidden">
-                        <img src="Gemini_Generated_Image_df7pndf7pndf7pnd.png" alt="Logo" class="w-full h-full object-cover">
+                        <img src="Gemini_Generated_Image_df7pndf7pndf7pnd.png" alt="Logo" class="w-full h-full object-cover" draggable="false">
                     </div>
                     <h4 class="text-xl font-serif font-bold italic">Toko Kertas Beringin Jaya</h4>
                 </div>
@@ -240,7 +240,7 @@
     </footer>
 
     <!-- Floating Buttons -->
-    <a href="https://wa.me/6287878917622" target="_blank" class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-2xl shadow-lg hover:scale-110 transition flex items-center gap-3 group">
+    <a href="https://wa.me/6287878917622" target="_blank" class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-2xl shadow-lg hover:scale-110 transition flex items-center gap-3 group" draggable="false">
         <i data-lucide="phone" class="w-6 h-6"></i>
         <div class="hidden sm:block">
             <p class="text-[10px] uppercase font-bold opacity-80 leading-none">Ada Pertanyaan?</p>
@@ -258,9 +258,9 @@
         // Data Produk
         const products = [
             { id: 1, name: "Kertas Koran (Newsprint)", desc: "Kertas ekonomis dengan gramatur 48,8 gr. Ideal untuk cetak koran, nota sederhana, atau kertas bungkus.", img: "8da5ac4799c70b1aaaa336b5df6ada9b.jpg", items: [{ n: "Koran Folio", s: "21.5 x 33 cm" }, { n: "Koran A4", s: "21 x 29.7 cm" }, { n: "Koran Plano 61", s: "61 x 86 cm" }, { n: "Koran Plano 65", s: "65 x 100 cm" }] },
-            { id: 2, name: "Kertas Undangan & Fancy", desc: "Koleksi kertas bertekstur dan mewah seperti Jasmine dan Linen untuk kebutuhan undangan premium.", img: "OIP.webp", items: [{ n: "Jasmine Muda / Mas", s: "79 x 109 cm" }, { n: "Linen Putih (210/220gr)", s: "79 x 109 cm" }, { n: "Concord KS (Putih/Warna)", s: "F4 / Plano" }, { n: "Buffalo & Semboja", s: "Berbagai Warna" }] },
-            { id: 3, name: "Kertas HVS & Digital", desc: "Kertas putih bersih untuk dokumen kantor dan cetak digital dengan berbagai pilihan ketebalan.", img: "21z3HBzmBoL._AC_SS450_ (1).jpg", items: [{ n: "HVS 60 gr (F4/A4/Q)", s: "Putih" }, { n: "HVS 70 gr (F4/A4/A3)", s: "Putih" }, { n: "HVS 80 gr (F4/A4/A3)", s: "Putih" }, { n: "HVS Warna 60/70 gr", s: "Pastel" }] },
-            { id: 4, name: "Art Paper & Art Carton", desc: "Kertas licin/glossy untuk brosur, kartu nama, kalender, dan cover buku.", img: "eb5b983498224557681a1e74390ee89a.jpg", items: [{ n: "Art Paper 120/150 gr", s: "65x100 / 79x109" }, { n: "Art Carton 190/210/230 gr", s: "65x100 / 79x109" }, { n: "Art Carton 260/310 gr", s: "65x100 / 79x109" }] },
+            { id: 2, name: "Kertas Undangan & Fancy", desc: "Koleksi kertas bertekstur dan mewah seperti Jasmine dan Linen untuk kebutuhan undangan premium.", img: "kertas jasmine.jpg", items: [{ n: "Jasmine Muda / Mas", s: "79 x 109 cm" }, { n: "Linen Putih (210/220gr)", s: "79 x 109 cm" }, { n: "Concord KS (Putih/Warna)", s: "F4 / Plano" }, { n: "Buffalo & Semboja", s: "Berbagai Warna" }] },
+            { id: 3, name: "Kertas HVS & Digital", desc: "Kertas putih bersih untuk dokumen kantor dan cetak digital dengan berbagai pilihan ketebalan.", img: "KertasHVSA4_62ce27ba-c711-40e1-8a3d-d96a331d1a6b_900x900.jpg", items: [{ n: "HVS 60 gr (F4/A4/Q)", s: "Putih" }, { n: "HVS 70 gr (F4/A4/A3)", s: "Putih" }, { n: "HVS 80 gr (F4/A4/A3)", s: "Putih" }, { n: "HVS Warna 60/70 gr", s: "Pastel" }] },
+            { id: 4, name: "Art Paper & Art Carton", desc: "Kertas licin/glossy untuk brosur, kartu nama, kalender, dan cover buku.", img: "kertas-piagam-polos.jpg", items: [{ n: "Art Paper 120/150 gr", s: "65x100 / 79x109" }, { n: "Art Carton 190/210/230 gr", s: "65x100 / 79x109" }, { n: "Art Carton 260/310 gr", s: "65x100 / 79x109" }] },
             { id: 5, name: "Stiker & Label", desc: "Berbagai jenis kertas perekat mulai dari chromo hingga vinyl transparan.", img: "25-x-36-inch-90-90-gsm-chromo-gum-sheet-500x500.webp", items: [{ n: "Stiker Cromo", s: "70 x 108 cm" }, { n: "Stiker Vinyl (86x106)", s: "Putih / Transparan" }, { n: "Stiker HVS", s: "70 x 108 cm" }] },
             { id: 6, name: "Board & Samson", desc: "Kertas tebal (Board) dan kertas coklat (Samson) untuk packing atau hardcover.", img: "id-11134207-7r98x-lxf6m3agrvrheb.jpg", items: [{ n: "Board (Bot) 30/40", s: "65 x 76 cm" }, { n: "Samson 70/80 gr", s: "90 x 120 cm" }, { n: "Duplek 250/310/400 gr", s: "79 x 109 cm" }] }
         ];
@@ -356,6 +356,7 @@ function openModal(id) {
                     <img id="modalImg" 
                         src="${p.img}" 
                         class="w-full h-full max-h-64 md:max-h-80 object-contain mix-blend-multiply" 
+                        draggable="false"
                         alt="${p.name}">
                 </div>
 
@@ -381,7 +382,7 @@ function openModal(id) {
                 </div>
 
                 <div class="mt-10 flex flex-col sm:flex-row gap-4">
-                    <a href="https://wa.me/6287878917622?text=Halo Beringin Jaya, saya ingin tanya harga untuk produk: ${p.name}" target="_blank" class="flex-1 bg-[#25D366] text-white py-4 rounded-xl font-bold text-center shadow-lg shadow-green-200 hover:bg-green-600 transition flex items-center justify-center gap-2">
+                    <a href="https://wa.me/6287878917622?text=Halo Beringin Jaya, saya ingin tanya harga untuk produk: ${p.name}" target="_blank" class="flex-1 bg-[#25D366] text-white py-4 rounded-xl font-bold text-center shadow-lg shadow-green-200 hover:bg-green-600 transition flex items-center justify-center gap-2" draggable="false">
                         <i data-lucide="phone" class="w-5 h-5"></i> Tanya Harga Via WA
                     </a>
                     <button onclick="closeModal()" class="px-8 py-4 bg-slate-100 text-slate-500 rounded-xl font-bold hover:bg-slate-200 transition">Tutup</button>
